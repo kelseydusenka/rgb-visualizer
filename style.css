@@ -17,8 +17,8 @@ canvas {
 .saveButton {
   display: block;
   position: fixed;
-  bottom: 50px;
-  left: 200px;
+  bottom: 33px;
+  left: 50px;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 12px;
 }
