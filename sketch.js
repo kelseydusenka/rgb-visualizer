@@ -10,11 +10,11 @@ let rFill
 
 function makeSliders() {
   rSlider = createSlider(0, 255, 199);
-  rSlider.position(sliderXpos, windowHeight - margin * 2);
+  rSlider.position(sliderXpos, windowHeight - margin * 2.33);
   gSlider = createSlider(0, 255, 137);
-  gSlider.position(sliderXpos, windowHeight - margin * 1.5);
+  gSlider.position(sliderXpos, windowHeight - margin * 2);
   bSlider = createSlider(0, 255, 255);
-  bSlider.position(sliderXpos, windowHeight - margin);
+  bSlider.position(sliderXpos, windowHeight - margin * 1.66);
 }
 
 function saveDrawing() {
